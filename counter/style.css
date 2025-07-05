@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#counter{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    font-size:20px;
+    margin:7px;
+    background-color: rgb(50, 50, 225);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(71, 98, 234);
+}
+
