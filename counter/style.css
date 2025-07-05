@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+
 #counter{
     margin-top: 20px;
     text-align: center;
@@ -13,6 +21,10 @@
 .container{
     text-align: center;
     margin-top: 30px;
+}
+
+aside{
+    margin-left:20%;
 }
 
 button{
@@ -28,5 +40,21 @@ button{
 
 button:hover{
     background-color: rgb(71, 98, 234);
+}
+
+section{
+    display: flex;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    aside{
+        margin-left: 0%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
